@@ -1,2 +1,2 @@
-# sbfp
-spotbugs fals positive
+# spotbugs-sandbox
+spotbugs sanbox
