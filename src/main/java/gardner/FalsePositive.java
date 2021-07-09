@@ -29,7 +29,7 @@ public class FalsePositive {
 
     public void thing1() {
         try {
-            stmt = conn.prepareStatement("SELECT * FROM ? LIMIT 1");
+            PreparedStatement stmt = conn.prepareStatement("SELECT * FROM ? LIMIT 1");
             stmt.setString(1, "TABLE");
             stmt.executeUpdate();
         } catch (SQLException e) {
